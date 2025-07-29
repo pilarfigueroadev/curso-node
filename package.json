@@ -1,0 +1,34 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "El mejor curso gratis de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilarfigueroadev/curso-node.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "midudev"
+  ],
+  "author": "Pilar Figueroa - curso midudev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pilarfigueroadev/curso-node/issues"
+  },
+  "homepage": "https://github.com/pilarfigueroadev/curso-node#readme",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
