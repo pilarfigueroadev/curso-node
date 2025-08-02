@@ -1,0 +1,16 @@
+# This file contains HTTP requests for testing the API endpoints.
+# This request retrieves the Ditto Pokémon data.
+GET http://localhost:1234/pokemon/ditto
+
+###
+
+# This request creates a new Pokémon entry.
+POST http://localhost:1234/pokemon
+Content-Type: application/json
+
+{
+  "name": "Charmander",
+  "type": "Fire",
+  "abilities": ["Fire blast", "Flamethrower"],
+  "level": 10
+}
